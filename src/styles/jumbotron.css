@@ -1,0 +1,18 @@
+.jumbotron {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.jumbotron__profile__hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron__profile__hero-img {
+  width: 180px;
+  height: 180px;
+  display: flex;
+  display: block;
+  border-radius: 50%;
+}

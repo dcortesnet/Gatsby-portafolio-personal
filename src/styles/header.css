@@ -1,0 +1,9 @@
+.header {
+  width: 100%;
+}
+
+.header__nav__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
