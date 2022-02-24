@@ -9,10 +9,52 @@
   align-items: center;
 }
 
-.jumbotron__profile__hero-img {
+.jumbotron__profile__hero__img {
   width: 180px;
   height: 180px;
   display: flex;
   display: block;
   border-radius: 50%;
+}
+
+.jumbotron__profile__resume__title {
+  text-align: left;
+}
+
+.jumbotron__profile__resume__description {
+  text-align: justify;
+}
+.jumbotron__profile__resume__download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron__profile__resume__download__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  padding: 20px;
+  background-color: #ff6464;
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .jumbotron__profile__hero {
+    width: 100%;
+  }
+
+  .jumbotron__profile__resume__download {
+    justify-content: flex-start;
+  }
 }
