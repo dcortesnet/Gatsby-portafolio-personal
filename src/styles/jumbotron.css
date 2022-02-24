@@ -1,6 +1,10 @@
 .jumbotron {
   padding-top: 35px;
   padding-bottom: 35px;
+  max-inline-size: 1158px;
+  padding-inline-start: 15px;
+  padding-inline-end: 15px;
+  margin: auto;
 }
 
 .jumbotron__profile__hero {
@@ -52,6 +56,11 @@
 
   .jumbotron__profile__hero {
     width: 100%;
+    flex: 1 0 30%;
+  }
+
+  .jumbotron__profile__resume {
+    flex: 1 0 70%;
   }
 
   .jumbotron__profile__resume__download {

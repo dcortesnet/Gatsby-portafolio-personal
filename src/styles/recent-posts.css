@@ -1,0 +1,17 @@
+.recent-posts {
+  background-color: #edf7fa;
+  width: 100%;
+}
+
+.recent-posts__title {
+  text-align: center;
+  padding: 20px;
+}
+
+.recent-post__cards__card {
+  margin-inline-start: 15px;
+  margin-inline-end: 15px;
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 5px;
+}
