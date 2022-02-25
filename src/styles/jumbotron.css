@@ -52,6 +52,8 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
   .jumbotron__profile__hero {

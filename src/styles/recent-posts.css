@@ -1,17 +1,38 @@
 .recent-posts {
   background-color: #edf7fa;
   width: 100%;
+  padding-bottom: 10px;
 }
 
 .recent-posts__title {
   text-align: center;
   padding: 20px;
+  margin: 0;
 }
 
 .recent-post__cards__card {
   margin-inline-start: 15px;
   margin-inline-end: 15px;
+  margin-bottom: 15px;
   padding: 15px 20px;
   background-color: white;
   border-radius: 5px;
+}
+
+.recent-post__cards__card__subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-posts {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .recent-posts__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
 }
