@@ -1,0 +1,15 @@
+.footer {
+  padding: 30px;
+}
+
+.footer__social-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin: 0;
+}
+
+.footer__text {
+  text-align: center;
+}
