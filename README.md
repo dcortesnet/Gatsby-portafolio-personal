@@ -6,7 +6,7 @@
 
 > Github pages
 
-Descripción del proyecto: Proyecto de portafolio de ejemplo oficial Figma realizado con Gatsby, posteriormente a Github pages URL: 
+Descripción del proyecto: Proyecto de portafolio de ejemplo oficial Figma realizado con Gatsby, posteriormente a Github pages URL: https://dcortesnet.github.io/Gatsby-portafolio-personal/
 
 ## Acerca de Gatsby
 
