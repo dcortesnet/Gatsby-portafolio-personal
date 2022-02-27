@@ -6,4 +6,29 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__nav__list__element {
+  padding: 20px;
+  text-align: center;
+  list-style-type: none;
+  border: 1px solid;
+}
+
+.header__nav__list__element__link {
+  text-decoration: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  .header__nav__list {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .header__nav__list__element {
+    border: none;
+  }
 }

@@ -4,11 +4,11 @@ import Jumbotron from "../components/jumbotron"
 import RecentPosts from "../components/recent-posts"
 import FeatureWorks from "../components/feature-works"
 import Footer from "../components/footer"
+import Header from "../components/header"
 
 const IndexPage = () => (
   <div>
-    <Link to="/blog-page/">Blog page</Link> <br />
-    <Link to="/work-page/">Work page</Link> <br />
+    <Header />
     <Jumbotron />
     <RecentPosts />
     <FeatureWorks />
@@ -21,4 +21,7 @@ export default IndexPage
 /**
  *   // 
       //{" "}
+      <Header />
+    // <Link to="/blog-page/">Blog page</Link> <br />
+    // <Link to="/work-page/">Work page</Link> <br />
  */
