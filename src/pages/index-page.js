@@ -1,13 +1,13 @@
 import * as React from "react"
-//import { Link } from "gatsby"
+import { Link } from "gatsby"
 import Jumbotron from "../components/jumbotron"
 import RecentPosts from "../components/recent-posts"
-import "../styles/index.css"
 import FeatureWorks from "../components/feature-works"
 import Footer from "../components/footer"
 
 const IndexPage = () => (
   <div>
+    <Link to="/blog-page/">Go to page 2</Link> <br />
     <Jumbotron />
     <RecentPosts />
     <FeatureWorks />
@@ -18,6 +18,6 @@ const IndexPage = () => (
 export default IndexPage
 
 /**
- *   // <Link to="/page-2/">Go to page 2</Link> <br />
+ *   // 
       //{" "}
  */
