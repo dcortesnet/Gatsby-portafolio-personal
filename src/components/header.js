@@ -6,7 +6,7 @@ const Header = () => (
   <header className="header">
     <nav className="header__nav">
       <ul className="header__nav__list">
-        <Link className="header__nav__list__element__link" to="/">
+        <Link className="header__nav__list__element__link" to="/index-page">
           <li className="header__nav__list__element">Home</li>
         </Link>
 
