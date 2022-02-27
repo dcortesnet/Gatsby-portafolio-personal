@@ -7,7 +7,8 @@ import Footer from "../components/footer"
 
 const IndexPage = () => (
   <div>
-    <Link to="/blog-page/">Go to page 2</Link> <br />
+    <Link to="/blog-page/">Blog page</Link> <br />
+    <Link to="/work-page/">Work page</Link> <br />
     <Jumbotron />
     <RecentPosts />
     <FeatureWorks />
